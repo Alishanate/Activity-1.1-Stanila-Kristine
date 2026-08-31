@@ -1,0 +1,240 @@
+.manualContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9fafb;
+}
+
+.header {
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 2rem;
+}
+
+.superTitle {
+  color: #0d9488;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  color: #0f172a;
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: #475569;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  max-width: 800px;
+}
+
+.levelSection {
+  margin-bottom: 4rem;
+}
+
+.levelHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.badge {
+  background-color: #0d9488;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.levelTitle {
+  font-size: 1.5rem;
+  color: #1f2937;
+  font-weight: 700;
+}
+
+.componentGroup {
+  margin-bottom: 3rem;
+}
+
+.groupTitle {
+  font-size: 1.25rem;
+  color: #1f2937;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.groupDesc {
+  color: #64748b;
+  margin-bottom: 1.5rem;
+}
+
+.demoBox {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 2rem;
+}
+
+.colorGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.colorCard {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.colorSwatch {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.375rem;
+  flex-shrink: 0;
+}
+
+.colorInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.colorName {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.colorHex {
+  color: #0d9488;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+.colorClass {
+  color: #94a3b8;
+  font-size: 0.875rem;
+  font-family: monospace;
+}
+
+.colorDesc {
+  color: #64748b;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.buttonGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+}
+
+.btnPrimary {
+  background-color: #0d9488;
+  color: white;
+}
+
+.btnSecondary {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.btnOutline {
+  background-color: transparent;
+  color: #0d9488;
+  border: 1px solid #0d9488;
+}
+
+.btnText {
+  background-color: transparent;
+  color: #0d9488;
+}
+
+.btnSmall {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.btnLarge {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+}
+
+.btnDisabled {
+  background-color: #99f6e4;
+  color: white;
+  cursor: not-allowed;
+}
+
+.iconGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 1rem;
+}
+
+.iconItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  color: #0d9488;
+  gap: 0.5rem;
+}
+
+.iconName {
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.navDemo {
+  display: flex;
+  gap: 4rem;
+}
+
+.navLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #94a3b8;
+  margin-bottom: 0.5rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #0f172a;
+  color: #94a3b8;
+  font-size: 0.875rem;
+  border-radius: 0.5rem;
+  margin-top: 4rem;
+}

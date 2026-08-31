@@ -1,0 +1,24 @@
+.navItem {
+  color: var(--text-main);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.navItem:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .navItem {
+    display: block;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-bottom: 1px solid var(--border-color);
+  }
+  .navItem:last-child {
+    border-bottom: none;
+  }
+}
